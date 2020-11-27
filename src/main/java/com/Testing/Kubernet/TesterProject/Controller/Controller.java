@@ -53,6 +53,8 @@ public class Controller {
 		return (float)operands.getA() / operands.getB();
 	}
 
+	//dummy commit
+
 	@JmsListener(destination = "TestQueue")
 	public Boolean getQueueData(String data) {
 		System.out.println("Receiver....................");
